@@ -361,13 +361,6 @@ figure {
   padding: 0;
 }
 
-body {
-  background-color: #ffbe32;
-  background-image: url(/deploy/img/sun.svg);
-  background-size: contain;
-  height: 300px;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -396,7 +389,7 @@ ul li {
 ============= */
 body {
   font-family: "Port Lligat Slab", serif;
-  color: #ff6224;
+  color: #000;
 }
 body p {
   margin: 0;
@@ -412,14 +405,9 @@ body h1, body h2, body h3, body h4 {
 ============= */
 button {
   text-decoration: none;
-  background-color: #ff6224;
+  background-color: #000;
   transition: 0.25s;
 }
-button:hover {
-  color: #ffbe32;
-  background-color: #e25720;
-}
-
 /* =============
     Forms
 ============= */
@@ -444,134 +432,9 @@ textarea {
 /* =============
     Header
 ============= */
-header ul {
-  padding-top: 20px;
-  display: grid;
-  grid-template-columns: 16px auto auto auto 16px;
-  grid-template-areas: ". title1 cream title2 ." "open open open open open";
-}
-header ul #wiggy {
-  grid-area: title1;
-  text-align: center;
-  padding: 20px;
-  padding-bottom: 40px;
-  font-size: calc(1.5rem);
-}
-header ul #cone {
-  grid-area: cream;
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 200%;
-  width: 100%;
-  background-position: center;
-  z-index: 10;
-  margin-top: -30px;
-  background-image: url(/deploy/img/cone.jpg);
-}
-header ul #cream {
-  grid-area: title2;
-  text-align: center;
-  padding: 20px;
-  font-size: calc(1.5rem);
-}
-header ul #open {
-  grid-area: open;
-  background-image: url(/deploy/img/shop.jpg);
-  text-align: center;
-  background-size: cover;
-  height: 300px;
-  text-align: center;
-  font-size: calc(2rem);
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-bottom: 20px solid #ff6224;
-}
-header ul #open p {
-  opacity: 0;
-}
-header ul #open h1 {
-  font-weight: 400;
-}
-
 /* =============
     Footer
 ============= */
-#preloader {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  z-index: 1000;
-  background-color: #fff;
-  display: grid;
-  align-self: center;
-}
-
-.cone {
-  visibility: hidden;
-}
-
-.cone10 {
-  visibility: hidden;
-}
-
-.vanilla {
-  visibility: hidden;
-}
-
-.choc {
-  visibility: hidden;
-}
-
-.stack {
-  visibility: hidden;
-}
-
-.straw {
-  visibility: hidden;
-}
-
-.cher {
-  visibility: hidden;
-}
-
-.done {
-  visibility: hidden;
-}
-
-section ul {
-  display: grid;
-  grid-template-columns: 16px 50% auto 16px;
-  grid-template-areas: ". dir men ." ". abt ev .";
-}
-section ul button {
-  border: none;
-  text-align: center;
-  padding: 40px;
-  font-size: calc(3rem);
-  background-color: #ff6224;
-  color: #fff;
-  width: 100%;
-  font-weight: 400;
-}
-section ul #directions {
-  grid-area: dir;
-  margin: 5px;
-}
-section ul #menu {
-  grid-area: men;
-  margin: 5px;
-}
-section ul #about {
-  grid-area: abt;
-  margin: 5px;
-}
-section ul #events {
-  grid-area: ev;
-  margin: 5px;
-}
-
 #body {
   display: flex;
   text-align: center;

@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -20,42 +28,6 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/deploy\/img\/cone.jpg" : {
-      "ft" : 16384,
-      "iS" : 20736,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/cone.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/shop.jpg" : {
-      "ft" : 16384,
-      "iS" : 426451,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/shop.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/sun.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/sun.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -401,6 +373,25 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -411,7 +402,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 654009680.036273,
-    "displayValue" : "Motion-F21-AM-2",
+    "displayValue" : "logo-animation",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pale",
     "iconImageWasSetByUser" : 0

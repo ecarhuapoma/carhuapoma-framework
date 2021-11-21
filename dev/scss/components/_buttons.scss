@@ -3,10 +3,9 @@
 ============= */
 button{
     text-decoration: none;
-    background-color: $ice-cream;
+    background-color: $black;
     transition: .25s;
     &:hover{
-        color: $bg-yellow;
-        background-color: $hov-orange;
-    }
+        
+}
 }
