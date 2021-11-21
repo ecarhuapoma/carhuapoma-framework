@@ -1,0 +1,43 @@
+/* =============
+    Base
+============= */
+.gs-dev-tools {
+    z-index: 2000;
+}
+
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $bg-yellow;
+    background-image:url(/deploy/img/sun.svg);
+    background-size: contain;
+    height: 300px;
+    
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.container-grid {
+    display: grid;
+    grid-template-areas: ". grid-content .";
+    grid-template-columns: 15px auto 15px;
+    height: 100vh;
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div {
+        grid-area: grid-content;
+    }
+}

@@ -1,0 +1,43 @@
+#preloader{
+    
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    background-color: $white;
+    
+    display: grid;
+    align-self:center;
+}
+
+.cone{
+    visibility: hidden;
+}
+
+.cone10{
+    visibility: hidden;   
+}
+
+.vanilla{
+    visibility: hidden;
+}
+
+.choc{
+    visibility: hidden;
+}
+
+.stack{
+    visibility: hidden;
+}
+
+.straw{
+    visibility: hidden;
+}
+
+.cher{
+    visibility: hidden;
+}
+
+.done{
+    visibility:hidden;
+}

@@ -1,0 +1,81 @@
+/* =============
+    Header
+============= */
+header{
+    
+//     #cone{
+//         grid-area: cream;
+//         background-image:url(/deploy/img/cone.jpg);
+//         background-position: center;
+//         background-size: cover;
+        
+
+//         position: absolute;
+// width: 268px;
+// height: 358px;
+// left: 612px;
+// top: 17px;}
+
+    
+
+    ul{
+        
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: 16px auto auto auto 16px;
+        grid-template-areas: ". title1 cream title2 ."
+        "open open open open open";
+
+        #wiggy{
+            grid-area: title1;
+            text-align: center;
+            padding: 20px;
+            padding-bottom: 40px;
+            font-size: calc(1.5rem);
+        }
+
+        #cone{
+            grid-area: cream;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 200%;
+            width: 100%;
+            background-position: center;
+            z-index: 10;
+            margin-top: -30px;
+            background-image:url(/deploy/img/cone.jpg);
+        }
+
+        #cream{
+            grid-area: title2;
+            text-align: center;
+            padding: 20px;
+            font-size: calc(1.5rem);
+        }
+
+        #open{
+            grid-area: open;
+            background-image: url(/deploy/img/shop.jpg);
+            text-align: center;
+            background-size: cover;
+            height: 300px;
+            text-align: center;
+            font-size: calc(2rem);
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+border-bottom: 20px solid $ice-cream;
+            p{
+                opacity: 0;
+            }
+
+            h1{
+                font-weight: 400;
+            }
+            
+        }
+    }
+    
+}
