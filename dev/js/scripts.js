@@ -14,7 +14,18 @@ mainTL.set("#preloader",{scale:1.5, x:0, y:-1700});
 mainTL.set(".stars",{scale:2,x:-150, y:-1400});
 mainTL.set("#comet",{scale:2,x:-600, y:200});
 mainTL.set(".planetStars",{scale:1.2,x:-25, y:-800});
+// mainTL.set(".logo-stars",{alpha:1});
 
+mainTL.set(".stars-1",{alpha:1});
+
+// twinkle();
+
+// function twinkle(){
+//     const tl=gsap.timeline();
+//     tl.fromTo(".stars-1",{duration:0.01, alpha:1},{stagger:0.1, alpha:.3});
+    
+// // tl.fromTo(".logo-stars",{duration:0.1, alpha:1},{stagger:0.3, alpha:.3});
+// }
 
 
 gsap.timeline({onStart:mainTL.to("#comet",{x:700, y:-600, ease:"power3.in",duration:4,autoAlpha:.5})});
@@ -48,10 +59,23 @@ function planetBuilding(){
     return tl;
 }
 
+function logoTwinkle(){
+    const tl=gsap.timeline({repeat:-1, yoyo:true});
+    tl.fromTo(".logo-stars",{duration:.1, alpha:.3},{stagger:.3, alpha:1});
+}
 
+function twinkle(){
+    const tl=gsap.timeline({repeat:-1, yoyo:true});
+    // tl.fromTo(".stars-1",{duration:.5, alpha:.3},{stagger:0.3, alpha:1});
+}
 
+logoTwinkle();
+twinkle();
 
 mainTL.add(intro(),"-=2")
 .add(planetBuilding(),"-=1");
+
+
+
 
 GSDevTools.create();
