@@ -435,14 +435,8 @@ textarea {
 /* =============
     Footer
 ============= */
-#preloader {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  z-index: 1000;
-  background-color: #fff;
-  display: grid;
-  align-self: center;
+#preloader > div {
+  grid-area: daAni;
 }
 
 #clipping-mask {
