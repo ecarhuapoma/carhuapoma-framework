@@ -1,0 +1,13 @@
+#rps-animation{
+    background-color:$pet-orange;
+    display:grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-areas: ". grass .";
+
+    >div{
+        grid-area: grass;
+        padding-top: 50px;
+        margin-bottom: 100px;
+        background-color: $pet-orange;
+    }
+}
