@@ -48,4 +48,3 @@ mainTL.add(petDraw())
 .add(typeAppear(),"-=3");
 
 
-GSDevTools.create();
